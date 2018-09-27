@@ -1,0 +1,29 @@
+///*------------------------------------*\
+//    #HEADERS
+//\*------------------------------------*/
+
+.header__main {
+padding        : 1em 0 2em;
+
+  a {
+  font-weight    : $font-weight--med;
+  font-size      : 14px;
+  color          : white;
+  opacity        : .75;
+  transition     : opacity $transition;
+
+    &:hover, &:focus {
+    opacity        : 1;
+    text-decoration: none;
+    }
+  }
+}
+
+.header__section {
+  padding        : 2em 0 3em;
+
+  h1 {
+    font-weight: $font-weight--bold;
+  }
+
+}

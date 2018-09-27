@@ -1,0 +1,14 @@
+///*------------------------------------*\
+//    #BUTTONS
+//\*------------------------------------*/
+
+.btn-link {
+  font-size: 14px;
+  text-decoration: none;
+  color          : $color__blue--base;
+  cursor         : pointer;
+
+  &:hover, &:focus {
+    color        : darken($color__blue--base, 10%);
+  }
+}

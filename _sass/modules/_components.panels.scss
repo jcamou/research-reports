@@ -1,0 +1,97 @@
+.panel {
+  position        : relative;
+  flex-direction  : column;
+  min-width       : 0;
+  word-wrap       : break-word;
+  padding         : 1.25rem;
+	background-color: white;
+	border          : 0;
+  border-radius   : 2px;
+	box-shadow      : 0px 3px 15px 1px rgba(0, 0, 0, 0.04);
+}
+
+.panel--blue {
+	background-color: $color__blue--base;
+	color           : white;
+}
+
+.panel__title {
+  font-size       : 18px;
+  margin-bottom   : 16px;
+}
+
+.panel__metric-container {
+  display         : block;
+  margin-bottom   : 1em;
+
+}
+
+.panel__metric-heading {
+  font-size: 12px;
+  font-weight: $font-weight--bold;
+  color: $color__gray--dark;
+}
+
+.panel__metric-heading--border {
+  padding-bottom: 4px;
+  border-bottom: 1px solid $color__gray--light;
+}
+
+.panel__metric {
+  font-size       : 36px;
+  line-height     : 36px;
+  font-weight     : 700;
+}
+
+.panel__fine-print {
+  font-size       : 12px;
+  color           : $color__gray--base;
+}
+
+.panel__trend {
+  display         : inline-block;
+  height          : 24px;
+  padding         : 3px 10px;
+  color           : white;
+  font-size       : 12px;
+  font-weight     : $font-weight--bold;
+  letter-spacing  : 1px;
+  text-align      : center;
+  border-radius   : 14px;
+  vertical-align  : middle;
+}
+
+.panel__trend--positive {
+  background-color: $color__green--base;
+}
+
+.panel__trend--negative {
+  background-color: red;
+}
+
+.panel__instructions {
+  display         : table;
+  width           : 100%;
+  border          : 2px solid $color__gray--base;
+  background-color: white;
+}
+
+.panel__instructions--blue {
+  border-color: $color__blue--base;
+
+  .panel__icon-container {
+    background-color: $color__blue--base;
+  }
+}
+
+.panel__icon-container {
+  display       : table-cell;
+  width         : 50px;
+  vertical-align: middle;
+  text-align    : center;
+
+}
+
+.panel__text-container {
+  padding: 16px;
+}
