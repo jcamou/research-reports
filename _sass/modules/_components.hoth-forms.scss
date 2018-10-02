@@ -1,0 +1,46 @@
+/*------------------------------------*\
+    #HOTH-FORMS
+\*------------------------------------*/
+
+.hoth-form__label {
+  font-weight: $font-weight--bold;
+  color: $color__gray--dark;
+  font-size: 14px;
+}
+
+.hoth-form__input {
+  border: 2px solid $color__gray--med;
+  border-radius: 2px;
+  transition: all $transition;
+  font-size: 14px; 
+  color: $color__black--base;
+
+  &:hover  {
+    border-color: $color__gray--base;
+  }
+
+  &:focus {
+    border-color: $color__blue--base;
+  }
+
+
+  &:active {
+    border-color: $color__blue--base;
+  }
+}
+
+.hoth-form__invalid-feedback {
+  color: $color__red--base;
+}
+
+.custom-select.is-invalid, .form-control.is-invalid, .was-validated .custom-select:invalid, .was-validated .form-control:invalid {
+  border-color: $color__red--base;
+}
+
+#orderSupportFormContainer {
+  display: none;
+}
+
+#supportTypeSelect {
+  display: block;
+}

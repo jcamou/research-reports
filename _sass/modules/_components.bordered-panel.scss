@@ -1,0 +1,69 @@
+/*------------------------------------*\
+    #BORDERED-PANEL
+\*------------------------------------*/
+
+.bordered-panel {
+  display: block;
+  text-decoration: none;
+  border: 2px solid $color__gray--med;
+  background-color: transparent;
+  border-radius: 4px;
+  padding: 30px 20px;
+  transition: all $transition;
+  color: $color__black--base;
+
+  p {
+    line-height: 1.5em;
+  }
+
+  &:hover, &:focus {
+    border-color: $color__red--base;
+    background-color: white;
+    text-decoration: none;
+    color: $color__black--base;
+
+    .bordered-panel__name {
+      color: $color__red--base;
+    }
+
+  }
+}
+
+.bordered-panel__name {
+  color: $color__black--base;
+  font-size: 16px;
+  font-weight: $font-weight--bold;
+  margin-bottom: 4px;
+  transition: color $transition;
+  text-decoration: none;
+}
+
+.border-panel--text-centered {
+  text-align: center;
+}
+
+.bordered-panel__img {
+  width: 48px;
+}
+
+.bordered-panel__img--75 {
+  width: 75px;
+}
+
+.border-panel__text-pad--100 {
+  padding-left: 100px;
+}
+
+// Needs a home
+.page-header__img {
+  float: left;
+  padding-top: 14px;
+}
+
+.page-header__text {
+  padding-left: 100px;
+}
+
+.icon__width--150 {
+  width: 150px;
+}

@@ -1,4 +1,26 @@
 $(document).ready(function() {
+    $('#orderSupportSelect').click(function(){
+      if ( $('#orderSupportFormContainer').css('display') == 'none' ) {
+        $('#orderSupportFormContainer').css('display','block');
+        $('#supportTypeSelect').css('display','none'); 
+      }
+      else {
+        $('#orderSupportFormContainer').css('display','none');
+        $('#supportTypeSelect').css('display','block');
+      }
+    });
+
+    $('#cancelOrderSupportButton').click(function(){
+      if ( $('#orderSupportFormContainer').css('display') == 'block' ) {
+        $('#orderSupportFormContainer').css('display','none');
+        $('#supportTypeSelect').css('display','block'); 
+      }
+      else {
+        $('#orderSupportFormContainer').css('display','block');
+        $('#supportTypeSelect').css('display','none');
+      }
+    });
+
     var hash = window.location.hash;
     hash && $('ul.nav a[href="' + hash + '"]').tab('show');
 
@@ -196,4 +218,8 @@ $(document).ready(function() {
       },
     }
   });
+
+  
+  
 });
+

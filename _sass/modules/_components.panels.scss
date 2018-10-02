@@ -95,3 +95,36 @@
 .panel__text-container {
   padding: 16px;
 }
+
+.panel__ribbon {
+  position: absolute;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 14px;
+  right: -13px;
+  top: 16px;
+  box-shadow: $box-shadow;
+}
+
+.panel__ribbon--blue {
+  background-color: $color__blue--base;
+  color: white;
+
+  &:after {
+    content: "";
+    position: absolute;
+    display: block;
+    border-style: solid;
+    border-color: $color__blue--dark transparent transparent transparent;
+    bottom: -1em;
+    right: 0;
+    border-width: 1em 1em 0 0;
+  }
+}
+
+.panel__ribbon-super-script {
+  font-size: 8px;
+  vertical-align: text-top;
+  font-weight: $font-weight--bold;
+  margin-right: 1px;
+}

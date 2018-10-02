@@ -12,3 +12,61 @@
     color        : darken($color__blue--base, 10%);
   }
 }
+
+.hoth-btn__link {
+  font-weight: $font-weight--med;
+  transition: color $transition;
+}
+
+.hoth-btn__link--blue {
+  color: $color__blue--base;
+
+  &:hover, &:focus {
+    color: $color__blue--dark;
+    text-decoration: none;
+  }
+}
+
+.hoth-btn__link--red {
+  color: $color__red--base;
+
+  &:hover, &:focus {
+    color: $color__red--dark;
+    text-decoration: none;
+  }
+}
+
+.hoth-btn__link--gray {
+  color: $color__gray--base;
+
+  &:hover, &:focus {
+    color: $color__gray--dark;
+    text-decoration: none;
+  }
+}
+
+.hoth-btn--primary {
+  background-color: $color__red--base;
+  padding: 8px 24px;
+  font-size: 14px;
+  font-weight: $font-weight--med;
+  letter-spacing: .5px;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  transition: all $transition;
+  box-shadow: $box-shadow;
+
+  &:hover, &:focus {
+    background-color: $color__red--dark;
+  }
+
+  &:focus {
+      outline:        1px dotted white;
+      outline-offset: -4px;
+    }
+
+  &:active {
+    background-color: $color__red--darkest !important;
+  }
+}

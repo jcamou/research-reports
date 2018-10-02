@@ -1,0 +1,151 @@
+---
+layout: support-ticket
+title: Jose Camou
+---
+
+<div id="supportTypeSelect">
+  <h2 class="text__font-size--24 text--bold text-center mb-5">What do you need help with?</h2>
+  <div class="row justify-content-center">
+    <div class="col-sm-12 col-lg-4">
+      <a id="orderSupportSelect" class="bordered-panel border-panel--text-centered">
+        <img src="/assets/images/icons/icon__submit-ticket.svg" class="bordered-panel__img--75 mb-2">
+        <div class="bordered-panel__name">Order Support</div>
+        <p class="text__font-size--14">Ask us any question or leave some feedback. We'll respond as fast as we can.</p>
+      </a>
+    </div>
+    <div class="col-sm-12 col-lg-4">
+      <a href="https://www.thehoth.com/orders/team" class="bordered-panel border-panel--text-centered">
+        <img src="/assets/images/icons/icon__sales-strategy.svg" class="bordered-panel__img--75 mb-2">
+        <div class="bordered-panel__name">Sales & Strategy</div>
+        <p class="text__font-size--14 text__color--black">SEO is hard. Take a load off and let us help you plan the right strategy.</p>
+      </a>
+    </div>
+    <div class="col-sm-12 col-lg-4">
+      <a href="http://faq.thehoth.com/help_center" class="bordered-panel border-panel--text-centered">
+        <img src="/assets/images/icons/icon__knowledge-base.svg" class="bordered-panel__img--75 mb-2">
+        <div class="bordered-panel__name">HOTH Knowledge Base</div>
+        <p class="text__font-size--14">All the resources you need to answer any question, at your own pace.</p>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div id="orderSupportFormContainer">
+  <div class="row justify-content-center mb-5 mt-5">
+    <div class="col-sm-12 col-lg-6">
+      <div class="mb-2 text__font-size--14 hoth-btn__link hoth-btn__link--gray page-header__text">HOTH Help</div>
+      <img src="/assets/images/icons/icon__submit-ticket.svg" class="bordered-panel__img--75 page-header__img">
+      <div class="page-header__text">
+        <h1 class="text--bold">Ask a Question</h1>
+        <p>Ask us any question or leave some feedback. We'll respond as fast as we can.</p>
+      </div>
+      
+    </div>
+  </div>
+  <div class="row justify-content-between">
+    <div class="col-sm-12 col-lg-7">
+      <form class="needs-validation mb-5" novalidate>
+        <div class="form-group">
+          <label for="supportTicketFullName" class="hoth-form__label">Full Name</label>
+          <input type="text" class="form-control hoth-form__input" id="supportTicketFullName" aria-describedby="emailHelp" placeholder="Enter full name" required>
+          <div class="invalid-feedback hoth-form__invalid-feedback">
+            Please provide us with your full name.
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="supportTicketEmail" class="hoth-form__label">Email</label>
+          <input type="email" class="form-control hoth-form__input" id="supportTicketEmail" aria-describedby="emailHelp" placeholder="Enter email" required>
+          <div class="invalid-feedback hoth-form__invalid-feedback">
+            Please provide us with your email.
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="supportTicketTopic" class="hoth-form__label">How can we help you with today?</label>
+          <select class="form-control custom-select hoth-form__input" id="supportTicketTopic" required>
+            <option value="" selected>Select a topic</option>
+            <option value="order">An existing order with The HOTH</option>
+            <option value="sales">Placing a new order, or pre-sales questions</option>
+            <option value="billing">Billing or account issues</option>
+            <option value="affiliate">Affiliate program questions</option>
+            <option value="writer">Questions about working or writing for The HOTH</option>
+            <option value="bizdev">Business development &amp; partnering with The HOTH</option>
+            <option value="other">Other</option>
+          </select>
+          <div class="invalid-feedback hoth-form__invalid-feedback">
+            Please select a topic.
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="supportTicketOrderSelect" class="hoth-form__label">Which order did you need help with?</label>
+          <select class="form-control custom-select hoth-form__input" id="supportTicketOrderSelect" required>
+            <option value="" selected>Select an order</option>
+            <option value="order">An existing order with The HOTH</option>
+            <option value="sales">Placing a new order, or pre-sales questions</option>
+            <option value="billing">Billing or account issues</option>
+            <option value="affiliate">Affiliate program questions</option>
+            <option value="writer">Questions about working or writing for The HOTH</option>
+            <option value="bizdev">Business development &amp; partnering with The HOTH</option>
+            <option value="other">Other</option>
+          </select>
+          <div class="invalid-feedback hoth-form__invalid-feedback">
+            Please select an order.
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-sm-12 col-lg-4">
+            <label for="supportTicketOrderNumber" class="hoth-form__label">Enter the order number</label>
+            <input type="text" class="form-control hoth-form__input" id="supportTicketOrderNumber" aria-describedby="emailHelp" placeholder="Order Number" required>
+            <div class="invalid-feedback hoth-form__invalid-feedback">
+            Please provide the order number.
+          </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="supportTicketWebsite" class="hoth-form__label">What is your website or blog URL?</label>
+          <input type="text" class="form-control hoth-form__input" id="supportTicketWebsite" placeholder="Enter your website URL" required>
+          <div class="invalid-feedback hoth-form__invalid-feedback">
+            Please provide your website or blog URL.
+          </div>
+        </div>
+        <div class="form-group mb-4">
+          <label for="supportTicketIssueTextArea" class="hoth-form__label">Tell us about your issue</label>
+          <textarea class="form-control hoth-form__input" id="supportTicketIssueTextArea" rows="3" required></textarea>
+          <div class="invalid-feedback hoth-form__invalid-feedback">
+            Please provide us a description of your issue or feedback.
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary hoth-btn--primary">Submit Ticket</button>
+        <button id="cancelOrderSupportButton" type="button" class="btn btn-link hoth-btn__link hoth-btn__link--red">Cancel</button>
+      </form>
+      <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function() {
+          'use strict';
+          window.addEventListener('load', function() {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function(form) {
+              form.addEventListener('submit', function(event) {
+                if (form.checkValidity() === false) {
+                  event.preventDefault();
+                  event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+              }, false);
+            });
+          }, false);
+        })();
+      </script>
+    </div>
+    <div class="col-sm-12 col-lg-4">
+      <a href="http://faq.thehoth.com/help_center" class="bordered-panel border-panel--text-centered">
+        <img src="/assets/images/icons/icon__knowledge-base.svg" class="bordered-panel__img--75 mb-2">
+        <div class="bordered-panel__name">Explore the Knowledge Base</div>
+        <p class="text__font-size--14">Be sure to checkout our knowledge base for a collection of support resources.</p>
+        <div class="hoth-btn__link text__font-size--14 text__lh--18 d-inline-block hoth-btn__link--red">Go to Knowledge Base<i class="material-icons md-18 float-right ml-2">arrow_forward</i></div>
+      </a>
+    </div>
+  </div>
+</div>

@@ -31,6 +31,9 @@
  * Steps................Anything associated with each step panel.
  * H-Bar................Horizontal bar graph styles.
  * Notifications........Styles for notifications.
+ * Vendor Assets........Styles for anything vendor related like logos etc..
+ * Bordered-panel.......Panels with borders.
+ * HOTH-Forms................Styles for form inputs, labels, etc..
  *
  * TRUMPS
  * Type.................Text helpers.
@@ -80,6 +83,9 @@
 @import "modules/components.steps";
 @import "modules/components.h-bar";
 @import "modules/components.notifications";
+@import "modules/components.vendor-assets";
+@import "modules/components.bordered-panel";
+@import "modules/components.hoth-forms";
 
 
 /**
