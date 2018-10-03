@@ -1,0 +1,22 @@
+/*------------------------------------*\
+    #SECTIONS
+\*------------------------------------*/
+
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.section__bg--blue {
+  background-color: $color__blue--base;
+  color: white;
+}
+
+.section__bg--gray {
+  // background-color: $color__gray--bg;
+}
+
+.section__bg--gray-2 {
+  // background-color: $color__gray--2;
+}

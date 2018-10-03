@@ -1,4 +1,6 @@
 $(document).ready(function() {
+
+    // Backend Order
     $('#orderSupportSelect').click(function(){
       if ( $('#orderSupportFormContainer').css('display') == 'none' ) {
         $('#orderSupportFormContainer').css('display','block');
@@ -18,6 +20,52 @@ $(document).ready(function() {
       else {
         $('#orderSupportFormContainer').css('display','block');
         $('#supportTypeSelect').css('display','none');
+      }
+    });
+
+    // Public Sales
+    $('#publicSalesSelect').click(function(){
+      if ( $('#publicSalesFormContainer').css('display') == 'none' ) {
+        $('#publicSalesFormContainer').css('display','block');
+        $('#publicSupportTypeSelect').css('display','none'); 
+      }
+      else {
+        $('#publicSalesFormContainer').css('display','none');
+        $('#publicSupportTypeSelect').css('display','block');
+      }
+    });
+
+    $('#cancelSalesSupportButton').click(function(){
+      if ( $('#publicSalesFormContainer').css('display') == 'block' ) {
+        $('#publicSalesFormContainer').css('display','none');
+        $('#publicSupportTypeSelect').css('display','block'); 
+      }
+      else {
+        $('#publicSalesFormContainer').css('display','block');
+        $('#publicSupportTypeSelect').css('display','none');
+      }
+    });
+
+    // public Support
+    $('#publicSupportSelect').click(function(){
+      if ( $('#publicSupportFormContainer').css('display') == 'none' ) {
+        $('#publicSupportFormContainer').css('display','block');
+        $('#publicSupportTypeSelect').css('display','none'); 
+      }
+      else {
+        $('#publicSupportFormContainer').css('display','none');
+        $('#publicSupportTypeSelect').css('display','block');
+      }
+    });
+
+    $('#cancelPublicSupportButton').click(function(){
+      if ( $('#publicSupportFormContainer').css('display') == 'block' ) {
+        $('#publicSupportFormContainer').css('display','none');
+        $('#publicSupportTypeSelect').css('display','block'); 
+      }
+      else {
+        $('#publicSupportFormContainer').css('display','block');
+        $('#publicSupportTypeSelect').css('display','none');
       }
     });
 

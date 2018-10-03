@@ -16,6 +16,10 @@
     line-height: 1.5em;
   }
 
+  
+}
+
+.bordered-panel--hover {
   &:hover, &:focus {
     border-color: $color__red--base;
     background-color: white;
@@ -25,7 +29,6 @@
     .bordered-panel__name {
       color: $color__red--base;
     }
-
   }
 }
 
@@ -52,6 +55,10 @@
 
 .border-panel__text-pad--100 {
   padding-left: 100px;
+}
+
+.border-panel__bg--white {
+  background-color: white;
 }
 
 // Needs a home

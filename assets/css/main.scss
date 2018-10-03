@@ -19,6 +19,7 @@
  * Simple list..........Simplified list elements.
  * Buttons..............Button styles. 
  * Material-icons.......Size and color styles for material icons. 
+ * Icons................Styles for all internal icons.
  *
  * COMPONENTS
  * Panels...............Card-like panels used on ther dashboard.
@@ -33,7 +34,8 @@
  * Notifications........Styles for notifications.
  * Vendor Assets........Styles for anything vendor related like logos etc..
  * Bordered-panel.......Panels with borders.
- * HOTH-Forms................Styles for form inputs, labels, etc..
+ * HOTH-Forms...........Styles for form inputs, labels, etc..
+ * Sections.............Styles for section backgrounds
  *
  * TRUMPS
  * Type.................Text helpers.
@@ -68,6 +70,7 @@
 @import "modules/objects.buttons";
 @import "modules/objects.flags";
 @import "modules/objects.material-icons";
+@import "modules/objects.icons";
 
 
 /**
@@ -86,6 +89,7 @@
 @import "modules/components.vendor-assets";
 @import "modules/components.bordered-panel";
 @import "modules/components.hoth-forms";
+@import "modules/components.sections";
 
 
 /**
