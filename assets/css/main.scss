@@ -35,10 +35,14 @@
  * Vendor Assets........Styles for anything vendor related like logos etc..
  * Bordered-panel.......Panels with borders.
  * HOTH-Forms...........Styles for form inputs, labels, etc..
- * Sections.............Styles for section backgrounds
+ * Sections.............Styles for section backgrounds.
+ * TOC Nav..............Table of contents navigation for order reports.
  *
- * TRUMPS
+ * HELPERS
  * Type.................Text helpers.
+ *
+ * TEMP
+ * Boostrap-Fillins.....Bootstrap 4 classes for backend.
  */
 
 /**
@@ -68,7 +72,7 @@
  */
 @import "modules/objects.simple-list";
 @import "modules/objects.buttons";
-@import "modules/objects.flags";
+// @import "modules/objects.flags";
 @import "modules/objects.material-icons";
 @import "modules/objects.icons";
 
@@ -90,9 +94,19 @@
 @import "modules/components.bordered-panel";
 @import "modules/components.hoth-forms";
 @import "modules/components.sections";
+@import "modules/components.toc-nav";
 
 
 /**
  * #HELPERS
  */
 @import "modules/helpers.type";
+
+
+/**
+ * #TEMPS
+ */
+// @import "modules/temp.boostrap-fillins";
+
+
+

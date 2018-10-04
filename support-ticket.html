@@ -4,24 +4,24 @@ title: Jose Camou
 ---
 
 <div id="supportTypeSelect">
-  <h2 class="text__font-size--24 text--bold text-center mb-5">What do you need help with?</h2>
+  <h2 class="text__font-size--24 text--bold text-center mb-5">What can we help you with?</h2>
   <div class="row justify-content-center">
-    <div class="col-sm-12 col-lg-4">
-      <a id="orderSupportSelect" class="bordered-panel border-panel--text-centered">
+    <div class="col-sm-12 col-lg-4 mb-4">
+      <a id="orderSupportSelect" class="bordered-panel bordered-panel--hover border-panel--text-centered">
         <img src="/assets/images/icons/icon__submit-ticket.svg" class="bordered-panel__img--75 mb-2">
         <div class="bordered-panel__name">Order Support</div>
-        <p class="text__font-size--14">Ask us any question or leave some feedback. We'll respond as fast as we can.</p>
+        <p class="text__font-size--14">Ask us a question or leave some feedback.</p>
       </a>
     </div>
-    <div class="col-sm-12 col-lg-4">
-      <a href="https://www.thehoth.com/orders/team" class="bordered-panel border-panel--text-centered">
+    <div class="col-sm-12 col-lg-4 mb-4">
+      <a href="https://www.thehoth.com/orders/team" class="bordered-panel bordered-panel--hover border-panel--text-centered">
         <img src="/assets/images/icons/icon__sales-strategy.svg" class="bordered-panel__img--75 mb-2">
         <div class="bordered-panel__name">Sales & Strategy</div>
         <p class="text__font-size--14 text__color--black">SEO is hard. Take a load off and let us help you plan the right strategy.</p>
       </a>
     </div>
-    <div class="col-sm-12 col-lg-4">
-      <a href="http://faq.thehoth.com/help_center" class="bordered-panel border-panel--text-centered">
+    <div class="col-sm-12 col-lg-4 mb-4">
+      <a href="http://faq.thehoth.com/help_center" class="bordered-panel bordered-panel--hover border-panel--text-centered">
         <img src="/assets/images/icons/icon__knowledge-base.svg" class="bordered-panel__img--75 mb-2">
         <div class="bordered-panel__name">HOTH Knowledge Base</div>
         <p class="text__font-size--14">All the resources you need to answer any question, at your own pace.</p>
@@ -36,8 +36,8 @@ title: Jose Camou
       <div class="mb-2 text__font-size--14 hoth-btn__link hoth-btn__link--gray page-header__text">HOTH Help</div>
       <img src="/assets/images/icons/icon__submit-ticket.svg" class="bordered-panel__img--75 page-header__img">
       <div class="page-header__text">
-        <h1 class="text--bold">Ask a Question</h1>
-        <p>Ask us any question or leave some feedback. We'll respond as fast as we can.</p>
+        <h1 class="text--bold">Order Support</h1>
+        <p class="text__font-size--16">Ask us any question or leave some feedback. We'll respond as fast as we can.</p>
       </div>
       
     </div>
@@ -115,10 +115,32 @@ title: Jose Camou
           </div>
         </div>
 
-        <button type="submit" class="btn btn-primary hoth-btn--primary">Submit Ticket</button>
+        <button type="submit" class="hoth-btn--primary">Submit Ticket</button>
         <button id="cancelOrderSupportButton" type="button" class="btn btn-link hoth-btn__link hoth-btn__link--red">Cancel</button>
       </form>
       <script>
+        // Backend Order
+        $('#orderSupportSelect').click(function(){
+          if ( $('#orderSupportFormContainer').css('display') == 'none' ) {
+            $('#orderSupportFormContainer').css('display','block');
+            $('#supportTypeSelect').css('display','none'); 
+          }
+          else {
+            $('#orderSupportFormContainer').css('display','none');
+            $('#supportTypeSelect').css('display','block');
+          }
+        });
+
+        $('#cancelOrderSupportButton').click(function(){
+          if ( $('#orderSupportFormContainer').css('display') == 'block' ) {
+            $('#orderSupportFormContainer').css('display','none');
+            $('#supportTypeSelect').css('display','block'); 
+          }
+          else {
+            $('#orderSupportFormContainer').css('display','block');
+            $('#supportTypeSelect').css('display','none');
+          }
+        });
         // Example starter JavaScript for disabling form submissions if there are invalid fields
         (function() {
           'use strict';
@@ -140,11 +162,10 @@ title: Jose Camou
       </script>
     </div>
     <div class="col-sm-12 col-lg-4">
-      <a href="http://faq.thehoth.com/help_center" class="bordered-panel border-panel--text-centered">
+      <a href="http://faq.thehoth.com/help_center" class="bordered-panel bordered-panel--hover border-panel--text-centered">
         <img src="/assets/images/icons/icon__knowledge-base.svg" class="bordered-panel__img--75 mb-2">
         <div class="bordered-panel__name">Explore the Knowledge Base</div>
         <p class="text__font-size--14">Be sure to checkout our knowledge base for a collection of support resources.</p>
-        <div class="hoth-btn__link text__font-size--14 text__lh--18 d-inline-block hoth-btn__link--red">Go to Knowledge Base<i class="material-icons md-18 float-right ml-2">arrow_forward</i></div>
       </a>
     </div>
   </div>

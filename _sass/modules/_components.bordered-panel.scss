@@ -3,6 +3,7 @@
 \*------------------------------------*/
 
 .bordered-panel {
+  position: relative;
   display: block;
   text-decoration: none;
   border: 2px solid $color__gray--med;
@@ -15,7 +16,6 @@
   p {
     line-height: 1.5em;
   }
-
   
 }
 
@@ -61,6 +61,19 @@
   background-color: white;
 }
 
+.border-panel__link {
+  position: relative;
+  background-image: url('/assets/images/icons/icon__link.svg');
+  width: 24px;
+  height: 34px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  margin: auto;
+  margin-bottom: -7px;
+  z-index: 999;
+}
+
 // Needs a home
 .page-header__img {
   float: left;
@@ -74,3 +87,5 @@
 .icon__width--150 {
   width: 150px;
 }
+
+
