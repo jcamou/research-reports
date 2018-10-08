@@ -62,16 +62,20 @@
 }
 
 .border-panel__link {
-  position: relative;
-  background-image: url('/assets/images/icons/icon__link.svg');
-  width: 24px;
-  height: 34px;
-  background-size: contain;
-  background-repeat: no-repeat;
+  position           : relative;
+  background-image   : url('/assets/images/icons/icon__link.svg');
+  width              : 24px;
+  height             : 34px;
+  background-size    : contain;
+  background-repeat  : no-repeat;
   background-position: 50%;
-  margin: auto;
-  margin-bottom: -7px;
-  z-index: 999;
+  margin             : auto;
+  margin-bottom      : -7px;
+  z-index            : 999;
+
+  @media print {
+    -webkit-print-color-adjust: exact;
+  }
 }
 
 // Needs a home

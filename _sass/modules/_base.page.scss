@@ -26,4 +26,8 @@ body {
 
 body {
 	background-color: #FBFBFB;
+  
+  @media print {
+    background-color: white;
+  }
 }

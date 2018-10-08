@@ -2,8 +2,8 @@
 layout: order-report
 title: Jose Camou
 ---
-<div class="row">
-  <div class="d-none d-sm-none d-md-block d-lg-block col-md-3 col-lg-3">
+<div class="row justify-content-center main-content">
+  <div id="tocNav" class=" col-md-3 col-lg-3">
     <nav class="toc-nav">
       <div class="text__font-size--14 text--bold text__color--gray-dark">Table of Contents</div>
       <ul class="simple-list--no-dots">
@@ -19,7 +19,7 @@ title: Jose Camou
       </ul>
 
       <div class="toc-nav__dl-container">
-        <a class="text__font-size--14 text--med" href="#">
+        <a class="text__font-size--14 text--med" href="javascript:window.print()">
           <i class="float-left material-icons md-18 mr-2">get_app</i>
           <span>Download Report</span>
         </a>
@@ -37,6 +37,12 @@ title: Jose Camou
             <h1>Link Building Order Report</h1>
             <div class="text__font-size--18 text--bold text__color--gray-dark">Order No. 123456</div>
             <div class="text__font-size--14 text__color--gray-dark">Report created on September 28, 2018</div>
+            <div class="d-block d-sm-block d-md-none d-lg-none header__dl-container mt-4">
+              <a class="text__font-size--14 text--med" href="#">
+                <i class="float-left material-icons md-18 mr-2">get_app</i>
+                <span>Download Report</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -50,7 +56,7 @@ title: Jose Camou
 
 
     <!-- Order Info -->
-    <section id="orderInformation" class="mt-5 mb-5">
+    <section id="orderInformation" class="mt-5 mb-5 section__print--no-break">
       <div class="row justify-content-center">
         <div class="col-sm-12 col-lg-8">
           <div class="header__section">
@@ -119,7 +125,7 @@ title: Jose Camou
       </div>
     </div>
 
-    <!-- Order Info -->
+    <!-- Link Building Strategy -->
     <section id="linkBuildingStrategy" class="mt-5 mb-5">
       <div class="row justify-content-center">
         <div class="col-sm-12 col-lg-8">
@@ -131,7 +137,7 @@ title: Jose Camou
       </div>
 
       <div class="row justify-content-center mb-3">
-        <div class="col-sm-12 col-lg-5">
+        <div class="col-sm-12 col-lg-5 col-print-5">
           <div class="bordered-panel border-panel__bg--white">
             <div class="text--bold text__font-size--14 mb-1">Your Website</div>
             <p class="text__font-size--14">Links from the layers below boost authority to your website and the URLs provided.</p>
@@ -143,11 +149,11 @@ title: Jose Camou
           <div class="border-panel__link"></div>
           <div class="bordered-panel border-panel__bg--white">
             <div class="row no-gutters justify-content-between">
-              <div class="col-sm-12 col-lg-6">
+              <div class="col-sm-12 col-lg-6 col-print-6">
                 <div class="text--bold text__font-size--14 mb-1">Authority Site Links</div>
                 <p class="text__font-size--14">We built properties on high authority domains and linked to your website. These are the only links in the structure that are pointed directly to your site.</p>
               </div>
-              <div class="col-sm-12 col-lg-4">
+              <div class="col-sm-12 col-lg-4 col-print-4">
                 <div class="text__color--gray text--med text__font-size--14 mb-1">Authority Site links created</div>
                 <p class="text__font-size--36 text--bold">48</p>
               </div>
@@ -160,11 +166,11 @@ title: Jose Camou
           <div class="border-panel__link"></div>
           <div class="bordered-panel border-panel__bg--white">
             <div class="row no-gutters justify-content-between">
-              <div class="col-sm-12 col-lg-6">
+              <div class="col-sm-12 col-lg-6 col-print-6">
                 <div class="text--bold text__font-size--14 mb-1">Web 2.0 Links</div>
                 <p class="text__font-size--14">These are supporting links for the articles we created. They point to the Authority sites and never link directly to your URLs.</p>
               </div>
-              <div class="col-sm-12 col-lg-4">
+              <div class="col-sm-12 col-lg-4 col-print-4">
                 <div class="text__color--gray text--med text__font-size--14 mb-1">Web 2.0 links created</div>
                 <p class="text__font-size--36 text--bold">70</p>
               </div>
@@ -174,7 +180,7 @@ title: Jose Camou
       </div>
 
       <div class="row justify-content-center mb-3">
-        <div class="col-sm-12 col-lg-5 mb-3">
+        <div class="col-sm-12 col-lg-5 col-print-5 mb-3">
           <div class="border-panel__link"></div>
           <div class="bordered-panel border-panel__bg--white">
             <div class="text--bold text__font-size--14 mb-1">Social Bookmark Links</div>
@@ -183,7 +189,7 @@ title: Jose Camou
             <p class="text__font-size--36 text--bold">150</p>
           </div>
         </div>
-        <div class="col-sm-12 col-lg-5 mb-3">
+        <div class="col-sm-12 col-lg-5 col-print-5 mb-3">
           <div class="border-panel__link"></div>
           <div class="bordered-panel border-panel__bg--white">
             <div class="text--bold text__font-size--14 mb-1">Profile Links</div>
@@ -223,13 +229,13 @@ title: Jose Camou
         <div class="col-sm-12">
           <div class="text__font-size--18 text--bold">Authority Site 1</div>
           <div class="float-left text__font-size--14 text--med text__color--gray-dark">http://mygreatfinancetips.wordpress.com</div>
-          <a class="text__font-size--12 float-right link__action text__lh--18" data-toggle="collapse" href="#collapseKeywordRankingsDef" role="button" aria-expanded="false" aria-controls="collapseKeywordRankingsDef">
+          <a class="text__font-size--12 float-right link__action text__lh--18 d-print--none" data-toggle="collapse" href="#collapseKeywordRankingsDef" role="button" aria-expanded="false" aria-controls="collapseKeywordRankingsDef">
           <i class="material-icons md-18 float-left mr-2">help_outline</i>
           What do the columns mean?
         </a>
         </div>
       </div>
-        <div class="collapse" id="collapseKeywordRankingsDef">
+        <div class="collapse" id="collapseKeywordRankingsDef" class="d-print--none">
         <hr>
         <div class="container">
           <div class="text__font-size--18 mb-4">Column Definitions</div>

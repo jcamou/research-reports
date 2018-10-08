@@ -14,12 +14,14 @@
  * Page.................Page-level styles (HTML element).
  * Type.................Typography styles.
  * Links................anchor styles.
+ * Print................Print reset styles.
  *
  * OBJECTS
  * Simple list..........Simplified list elements.
  * Buttons..............Button styles. 
  * Material-icons.......Size and color styles for material icons. 
  * Icons................Styles for all internal icons.
+ * Hoth-pill............Styles for status pills.
  *
  * COMPONENTS
  * Panels...............Card-like panels used on ther dashboard.
@@ -37,6 +39,7 @@
  * HOTH-Forms...........Styles for form inputs, labels, etc..
  * Sections.............Styles for section backgrounds.
  * TOC Nav..............Table of contents navigation for order reports.
+ * Hoth Timeline........Vertical line with ordered items.
  *
  * HELPERS
  * Type.................Text helpers.
@@ -64,6 +67,7 @@
 @import "modules/base.type";
 @import "modules/base.page";
 @import "modules/base.links";
+@import "modules/base.print";
 
 
 
@@ -75,6 +79,7 @@
 // @import "modules/objects.flags";
 @import "modules/objects.material-icons";
 @import "modules/objects.icons";
+@import "modules/objects.hoth-pill";
 
 
 /**
@@ -85,7 +90,7 @@
 @import "modules/components.headers";
 @import "modules/components.navbar";
 @import "modules/components.progress-chart";
-@import "modules/components.gauge";
+// @import "modules/components.gauge";
 @import "modules/components.main-content";
 @import "modules/components.steps";
 @import "modules/components.h-bar";
@@ -95,6 +100,7 @@
 @import "modules/components.hoth-forms";
 @import "modules/components.sections";
 @import "modules/components.toc-nav";
+@import "modules/components.hoth-timeline";
 
 
 /**

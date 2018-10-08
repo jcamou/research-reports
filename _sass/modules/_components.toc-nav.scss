@@ -2,6 +2,18 @@
     #TOC-NAV
 \*------------------------------------*/
 
+#tocNav {
+  display: block;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
 .toc-nav {
   position: fixed;
   top     : 175px;

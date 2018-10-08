@@ -1,0 +1,21 @@
+/*------------------------------------*\
+    #HOTH-PILL
+\*------------------------------------*/
+
+.hoth-pill {
+  display       : inline-block;
+  font-size     : 10px;
+  font-weight   : $font-weight--med;
+  padding       : 2px 12px;
+  letter-spacing: .5px;
+  border-radius : 50px;
+  vertical-align: middle;
+  margin-bottom : 4px;
+
+
+}
+
+.hoth-pill--green {
+  background-color: $color__green--base;
+  color: white;
+}
