@@ -15,9 +15,13 @@
   div:first-line,
   blockquote:first-line,
   li:first-line {
-      color: #000 !important;
+      // color: #000 !important;
       box-shadow: none !important;
       text-shadow: none !important;
+  }
+
+  .row {
+    overflow: visible !important;
   }
 
   .d-print--none {

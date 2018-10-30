@@ -1,9 +1,9 @@
 ---
 layout: order-report
-title: Jose Camou
+title: Guest Post Order Report
 ---
-<div class="row">
-  <div class="d-none d-sm-none d-md-block d-lg-block col-md-3 col-lg-3">
+<div class="row justify-content-center main-content">
+  <div id="tocNav" class="col-md-3 col-lg-3">
     <nav class="toc-nav">
       <div class="text__font-size--14 text--bold text__color--gray-dark">Table of Contents</div>
       <ul class="simple-list--no-dots">
@@ -19,7 +19,7 @@ title: Jose Camou
       </ul>
 
       <div class="toc-nav__dl-container">
-        <a class="text__font-size--14 text--med" href="#">
+        <a class="text__font-size--14 text--med" href="javascript:window.print()">
           <i class="float-left material-icons md-18 mr-2">get_app</i>
           <span>Download Report</span>
         </a>
@@ -39,7 +39,7 @@ title: Jose Camou
             <div class="text__font-size--14 text__color--gray-dark">Report created on September 28, 2018</div>
 
             <div class="d-block d-sm-block d-md-none d-lg-none header__dl-container mt-4">
-              <a class="text__font-size--14 text--med" href="#">
+              <a class="text__font-size--14 text--med" href="javascript:window.print()">
                 <i class="float-left material-icons md-18 mr-2">get_app</i>
                 <span>Download Report</span>
               </a>
@@ -54,7 +54,7 @@ title: Jose Camou
       </div>
     </div>
     <!-- Order Info -->
-    <section id="orderInformation" class="mt-5 mb-5">
+    <section id="orderInformation" class="mt-5 mb-5 section__print--no-break">
       <div class="row justify-content-center">
         <div class="col-sm-12 col-lg-8">
           <div class="header__section">
@@ -88,7 +88,7 @@ title: Jose Camou
       </div>
 
       <div class="table-responsive">
-        <table class="table table-sm hoth-tables">
+        <table class="table table-sm h-tables">
           <thead>
             <tr>
               <th scope="col">Primary URL</th>
@@ -134,24 +134,24 @@ title: Jose Camou
 
       <div class="row justify-content-center mb-4">
         <div class="col-sm-12 col-lg-8 pl-4">
-          <div class="hoth-timeline__item">
-            <div class="hoth-timeline__title-container">
-              <div class="d-inline-block text--med text__font-size--18 mr-3"><span class="hoth-timeline__number">1</span>Research & Outreach</div>
-              <div class="hoth-pill hoth-pill--green">Complete</div>
+          <div class="h-timeline__item">
+            <div class="h-timeline__title-container">
+              <div class="d-inline-block text--med text__font-size--18 mr-3"><span class="h-timeline__number">1</span>Research & Outreach</div>
+              <div class="h-pill h-pill--green">Complete</div>
             </div>
             <p class="text__font-size--14 text__color--gray-dark">We research & identify high-quality websites and manually outreach to them to pitch a topic they may be interested in publishing.</p>
           </div>
-          <div class="hoth-timeline__item">
-            <div class="hoth-timeline__title-container">
-              <div class="d-inline-block text--med text__font-size--18 mr-3"><span class="hoth-timeline__number">2</span>Content Development</div>
-              <div class="hoth-pill hoth-pill--green">Complete</div>
+          <div class="h-timeline__item">
+            <div class="h-timeline__title-container">
+              <div class="d-inline-block text--med text__font-size--18 mr-3"><span class="h-timeline__number">2</span>Content Development</div>
+              <div class="h-pill h-pill--green">Complete</div>
             </div>
             <p class="text__font-size--14 text__color--gray-dark">We craft a piece of high-quality content tailored to the audience of the publisher’s site. Your link is included in the content in a relevant way.</p>
           </div>
-          <div class="hoth-timeline__item">
-            <div class="hoth-timeline__title-container">
-              <div class="d-inline-block text--med text__font-size--18 mr-3"><span class="hoth-timeline__number">3</span>Publishing</div>
-              <div class="hoth-pill hoth-pill--green">Complete</div>
+          <div class="h-timeline__item">
+            <div class="h-timeline__title-container">
+              <div class="d-inline-block text--med text__font-size--18 mr-3"><span class="h-timeline__number">3</span>Publishing</div>
+              <div class="h-pill h-pill--green">Complete</div>
             </div>
             <p class="text__font-size--14 text__color--gray-dark">The publisher accepts & publishes the content and your link goes live!</p>
           </div>
@@ -183,50 +183,40 @@ title: Jose Camou
         </div>
       </div>
       <div class="clearfix mb-2">
-        <a class="text__font-size--12 float-right link__action text__lh--18" data-toggle="collapse" href="#collapseKeywordRankingsDef" role="button" aria-expanded="false" aria-controls="collapseKeywordRankingsDef">
+        <a class="text__font-size--12 float-right link__action text__lh--18 d-print--none" data-toggle="collapse" href="#collapseKeywordRankingsDef" role="button" aria-expanded="false" aria-controls="collapseKeywordRankingsDef">
           <i class="material-icons md-18 float-left mr-2">help_outline</i>
           What do the columns mean?
         </a>
       </div>
-      <div class="collapse" id="collapseKeywordRankingsDef">
+      <div class="collapse d-print--none" id="collapseKeywordRankingsDef">
         <hr>
         <div class="container">
           <div class="text__font-size--18 mb-4">Column Definitions</div>
           <div class="row">
             <div class="col-sm-12 col-md-4 col-lg-3">
-              <div class="text__font-size--12 text--bold">Keyword</div>
+              <div class="text__font-size--12 text--bold">Anchor Text</div>
               <p class="text__font-size--12">The word/phrase you are ranking for in Google.</p>
-            </div>
-            <div class="col-sm-12 col-md-4 col-lg-3">
-              <div class="text__font-size--12 text--bold">Position</div>
-              <p class="text__font-size--12">Previous position, your current position, and the movement in position</p>
-            </div>
-            <div class="col-sm-12 col-md-4 col-lg-3">
-              <div class="text__font-size--12 text--bold">Volume</div>
-              <p class="text__font-size--12">Total searches per month</p>
-            </div>
+            </div> 
             <div class="col-sm-12 col-md-4 col-lg-3">
               <div class="text__font-size--12 text--bold">URL</div>
               <p class="text__font-size--12">The page ranking for that keyword</p>
             </div>
             <div class="col-sm-12 col-md-4 col-lg-3">
-              <div class="text__font-size--12 text--bold">Difficult</div>
-              <p class="text__font-size--12">Competition level from 0 - 100 with 100 being the most competitive.</p>
+              <div class="text__font-size--12 text--bold">DA</div>
+              <p class="text__font-size--12">The word/phrase you are ranking for in Google.</p>
             </div>
+            
             <div class="col-sm-12 col-md-4 col-lg-3">
-              <div class="text__font-size--12 text--bold">Traffic</div>
-              <p class="text__font-size--12">Current estimated organic traffic to your site for this keyword.</p>
+              <div class="text__font-size--12 text--bold">Date Completed</div>
+              <p class="text__font-size--12">The page ranking for that keyword</p>
             </div>
-            <div class="col-sm-12 col-md-4 col-lg-3">
-              <div class="text__font-size--12 text--bold">CPC</div>
-              <p class="text__font-size--12">Estimated Cost Per Click value.</p>
-            </div>
+           
           </div>
         </div>
         <hr class="mb-5">
       </div>
       <div class="table-responsive">
-        <table class="table table-sm hoth-tables">
+        <table class="table table-sm h-tables">
           <thead>
             <tr>
               <th scope="col">Anchor Text</th>

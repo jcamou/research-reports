@@ -1,0 +1,47 @@
+/*------------------------------------*\
+    #VIDEO UPSELL
+\*------------------------------------*/
+
+.panel--gray {
+  display: block;
+  background-color: #F4F4F4;
+  border-radius: 2px;
+  padding: 1rem;
+}
+
+
+
+
+
+.tag {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 4px 16px;
+  border-radius: 2px;
+  letter-spacing: .5px;
+}
+
+.tag--blue {
+  background-color: $color__blue--base;
+  color: white;
+}
+
+.offer__header {
+  margin-bottom: 2rem;
+}
+
+.offer__header--heading {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .5px;
+  background-color: #fbfbfb;
+  float: left;
+  margin-top: -9px;
+  padding-right: 17px;
+}
+
+.width--18 {
+  width: 18px;
+}

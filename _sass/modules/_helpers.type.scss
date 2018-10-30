@@ -20,15 +20,15 @@
 }
 
 .text__font-size--14 {
-  font-size     : 14px;
+  font-size     : 14px !important;
 }
 
 .text__font-size--16 {
-  font-size     : 16px;
+  font-size     : 16px !important;
 }
 
 .text__font-size--18 {
-  font-size     : 18px;
+  font-size     : 18px !important;
 }
 
 .text__font-size--24 {
@@ -51,15 +51,15 @@
  */
 
 .text--regular {
-  font-weight   : $font-weight--regular;
+  font-weight   : $font-weight--regular !important;
 }
 
 .text--med {
-  font-weight   : $font-weight--med;
+  font-weight   : $font-weight--med !important;
 }
 
 .text--bold {
-  font-weight   : $font-weight--bold;
+  font-weight   : $font-weight--bold !important;
 }
 
 
@@ -109,6 +109,10 @@
   line-height: 26px;
 }
 
+.text__lh--38 {
+  line-height: 38px;
+}
+
 
 /**
  * Font color.
@@ -132,6 +136,10 @@
 
 .text__color--blue {
   color         : $color__blue--base;
+}
+
+.text__color--blue-dark {
+  color         : $color__blue--dark;
 }
 
 .text__color--green {

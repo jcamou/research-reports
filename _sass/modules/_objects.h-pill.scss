@@ -2,7 +2,7 @@
     #HOTH-PILL
 \*------------------------------------*/
 
-.hoth-pill {
+.h-pill {
   display       : inline-block;
   font-size     : 10px;
   font-weight   : $font-weight--med;
@@ -15,7 +15,14 @@
 
 }
 
-.hoth-pill--green {
+.h-pill--green {
   background-color: $color__green--base;
   color: white;
+
+}
+
+.h-pill--red {
+  background-color: $color__red--base;
+  color: white;
+
 }

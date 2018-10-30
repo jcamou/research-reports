@@ -1,8 +1,8 @@
 /*------------------------------------*\
-    #HOTH TABLES
+    #H-TABLES
 \*------------------------------------*/
 
-.hoth-tables {
+.h-tables {
 
   thead {
     font-size        : 10px;
@@ -38,12 +38,13 @@
   }
 
   td {
-    padding-top      : 12px;
-    padding-bottom   : 12px;
-    font-size        : 12px;
-    font-weight: 500;
-    color            : $color__gray--dark;
-    border-color     : $color__gray--light;
+    padding-top   : 12px;
+    padding-bottom: 12px;
+    font-size     : 12px;
+    line-height   : 1.5em;
+    font-weight   : 500;
+    color         : $color__gray--dark;
+    border-color  : $color__gray--light;
 
     &:first-of-type {
       padding-left   : 16px;
@@ -59,9 +60,7 @@
   }
 }
 
-
-
-.hoth-tables--simple {
+.h-tables--simple {
   border             : none;
   box-shadow         : none;
 
@@ -99,7 +98,7 @@
   }
 }
 
-.hoth-tables--dark {
+.h-tables--dark {
   background-color   : transparent;
 
   thead {
@@ -113,7 +112,7 @@
 
 }
 
-.hoth-tables__position {
+.h-tables__position {
   float     : left;
   width     : 20px;
   text-align: center;

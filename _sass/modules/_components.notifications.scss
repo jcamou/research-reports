@@ -24,6 +24,26 @@
   .notification--error & {
     background-image: url('../images/icons/notification__error.svg');
   }
+
+  .notification--error--gray & {
+    background-image: url('../images/icons/notification__error--gray.svg');
+  }
+
+  .notification--no-new & {
+    background-image: url('../images/icons/icon__notification--notifications.svg');
+  }
+
+  .notification--user & {
+    background-image: url('../images/icons/icon__notification--user.svg');
+  }
+
+  .notification--star & {
+    background-image: url('../images/icons/icon__notification--star.svg');
+  }
+
+  .notification--webby & {
+    background-image: url('../images/icons/icon__notification--webby.svg');
+  }
 }
 
 .notification--success {
@@ -36,4 +56,8 @@
   strong {
     color: #ea5054;
   }
+}
+
+.notification__position--middle {
+  margin-top: 25vh;
 }

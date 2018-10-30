@@ -1,0 +1,81 @@
+/*------------------------------------*\
+    #MISSION CONTROL
+\*------------------------------------*/
+body {
+  background-color: black;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.logo__container {
+  float: left;
+
+  img {
+    width: 75px;
+  }
+}
+
+.header__text-container {
+  padding-left: 100px;
+}
+
+h1 {
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+
+.mc__dropdown__label {
+  font-weight: 500;
+  color: white;
+  font-size: 14px;
+}
+
+.mc__dropdown {
+  .btn {
+    background-color: rgba(255,255,255,.1);
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 0;
+    cursor: pointer;
+    transition: all 0.29s ease-in-out 0s;
+
+    
+  }
+
+  .mc__dropdown--overview {
+    color: #63b5ff;
+
+    &:hover, &:focus {
+      border-color: #63b5ff;
+      color: #63b5ff;
+    }
+  }
+
+  .mc__dropdown--sales {
+    color: #64ffa2;
+
+    &:hover, &:focus {
+      border-color: #64ffa2;
+      color: #64ffa2
+      ;
+    }
+  }
+
+  .mc__dropdown--marketing {
+    color: #ff5c6c;
+
+    &:hover, &:focus {
+      border-color: #ff5c6c;
+      color: #ff5c6c;
+    }
+  }
+}
+
+hr {
+  border-color: white;
+  border-width: 2px;
+}
+

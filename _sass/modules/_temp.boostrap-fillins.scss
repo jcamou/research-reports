@@ -2,8 +2,24 @@
     text-align: center!important;
 }
 
+.text-uppercase {
+    text-transform: uppercase!important;
+}
+
+.align-middle {
+    vertical-align: middle!important;
+}
+
 .d-inline-block {
     display: inline-block!important;
+}
+
+.float-left {
+    float: left!important;
+}
+
+.float-right {
+    float: right!important;
 }
 
 .p-0 {
@@ -12,6 +28,10 @@
 
 .pt-5, .py-5 {
     padding-top: 3rem!important;
+}
+
+.mb-0, .my-0 {
+    margin-bottom: 0!important;
 }
 
 .mb-1, .my-1 {
@@ -38,9 +58,22 @@
     margin-top: 3rem!important;
 }
 
+.mr-2, .mx-2 {
+    margin-right: .5rem!important;
+}
+
+.mr-3, .mx-3 {
+    margin-right: 1rem!important;
+}
+
 .justify-content-center {
     -ms-flex-pack: center!important;
     justify-content: center!important;
+}
+
+.align-self-end {
+    -ms-flex-item-align: end!important;
+    align-self: flex-end!important;
 }
 
 .row {
@@ -71,6 +104,14 @@
   }
 }
 
+@media (min-width: 768px) {
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+}
+
 @media (min-width: 992px) {
 .pl-lg-0, .px-lg-0 {
     padding-left: 0!important;
@@ -86,6 +127,12 @@
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
+  }
+
+  .col-lg-5 {
+      -ms-flex: 0 0 41.666667%;
+      flex: 0 0 41.666667%;
+      max-width: 41.666667%;
   }
 
 .col-lg-6 {
@@ -112,7 +159,7 @@
     width: 100% !important;
     height: calc(2.25rem + 2px) !important;
     padding: .375rem .75rem !important;
-    font-size: 1rem !important;
+    font-size: 1rem;
     line-height: 1.5 !important;
     background-color: #fff;
     background-clip: padding-box;
@@ -170,4 +217,12 @@ textarea.form-control {
 .justify-content-between {
     -ms-flex-pack: justify!important;
     justify-content: space-between!important;
+}
+
+.wrapper {
+  box-sizing: border-box;
+
+  *, *:before, *:after {
+  box-sizing: inherit;
+}
 }

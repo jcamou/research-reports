@@ -20,6 +20,7 @@
 }
 
 .bordered-panel--hover {
+  cursor: pointer;
   &:hover, &:focus {
     border-color: $color__red--base;
     background-color: white;
@@ -32,9 +33,17 @@
   }
 }
 
+.bordered-panel--blue-border {
+  border-color: $color__blue--base;
+}
+
+.bordered-panel--green-border {
+  border-color: $color__green--base;
+}
+
 .bordered-panel__name {
   color: $color__black--base;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: $font-weight--bold;
   margin-bottom: 4px;
   transition: color $transition;
@@ -53,15 +62,15 @@
   width: 75px;
 }
 
-.border-panel__text-pad--100 {
+.bordered-panel__text-pad--100 {
   padding-left: 100px;
 }
 
-.border-panel__bg--white {
+.bordered-panel__bg--white {
   background-color: white;
 }
 
-.border-panel__link {
+.bordered-panel__link {
   position           : relative;
   background-image   : url('/assets/images/icons/icon__link.svg');
   width              : 24px;
